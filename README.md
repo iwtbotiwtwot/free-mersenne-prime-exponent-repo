@@ -16,10 +16,6 @@ You do not need to know Git or GitHub to use the data. Start with
 [`GETTING_STARTED.md`](docs/GETTING_STARTED.md) for browser downloads,
 spreadsheet use and simple command-line searches.
 
-For LLM ingestion, publication language, exact terminology, machine-readable
-facts and ready-to-use descriptions, start with
-[`LLM_PUBLICATION_BRIEF.md`](LLM_PUBLICATION_BRIEF.md).
-
 Candidate inclusion does not assign primality. A candidate with no exact result
 remains unresolved; exact factor and Lucas--Lehmer authorities remain separate.
 
