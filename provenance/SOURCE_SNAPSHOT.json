@@ -1,0 +1,9 @@
+{
+  "source_repository": "https://github.com/iwtbotiwtwot/mersenne-prime-search",
+  "source_path": "../mersenne-prime-search",
+  "source_revision": "9df4957c458b68b4363938766052bc2ebb6c5db9",
+  "candidate_files": 4484,
+  "candidate_records": 54385839,
+  "raw_bytes": 13385273998,
+  "assigns_primality": false
+}

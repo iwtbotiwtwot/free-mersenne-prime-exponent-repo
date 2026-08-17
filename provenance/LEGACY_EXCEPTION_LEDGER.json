@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "exceptions": [
+    {
+      "source_file": "candidates/SLCMP0.csv",
+      "source_revision": "9df4957c458b68b4363938766052bc2ebb6c5db9",
+      "row_count": 1858,
+      "exact_header": "selection_index_1_based|exponent|public_state|source_status|scheduled_shell_count|tested_opportunity_count|small_sieve_survivor_count|base2_prp_survivor_count|factor_q",
+      "classification": "LEGACY_HEADER_SCHEMA",
+      "disposition": "PRESERVE_AS_SEPARATE_LOSSLESS_LEGACY_ASSET",
+      "reason": "The file does not contain the canonical eighteen-field record surface; missing values are not fabricated."
+    }
+  ]
+}

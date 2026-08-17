@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "iwtbotiwtwot/free-mersenne-prime-exponent-repo",
+  "assigns_primality": false,
+  "candidate_records": 0,
+  "complete_blocks": 0,
+  "complete_batches": 0,
+  "bands": [],
+  "validation": "INITIAL_SCAFFOLD_ONLY"
+}

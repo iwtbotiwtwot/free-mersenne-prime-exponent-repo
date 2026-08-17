@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "free-mersenne-prime-exponent-repo"
+version = "1.0.0"
+description = "Free, machine-readable archive of complete Mersenne candidate records"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

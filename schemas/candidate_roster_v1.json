@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Complete Mersenne candidate roster v1",
+  "type": "array",
+  "items": {"type": "object", "additionalProperties": false, "required": ["queue_id", "queue_rank", "shell_survivor_rank", "exponent", "mersenne_object", "screen_status", "shell_status", "screen_schedule_count", "shell_schedule_count", "shell_tested_opportunity_count", "external_status_at_snapshot", "assignment_snapshot_utc", "sam_distribution_status", "assignee", "assignment_utc", "result_status", "result_reference", "notes"], "properties": {
+    "queue_id": {"type": "string"}, "queue_rank": {"type": "string"}, "shell_survivor_rank": {"type": "string"}, "exponent": {"type": "string", "pattern": "^[0-9]+$"}, "mersenne_object": {"type": "string"}, "screen_status": {"type": "string"}, "shell_status": {"type": "string"}, "screen_schedule_count": {"type": "string"}, "shell_schedule_count": {"type": "string"}, "shell_tested_opportunity_count": {"type": "string"}, "external_status_at_snapshot": {"type": "string"}, "assignment_snapshot_utc": {"type": "string"}, "sam_distribution_status": {"type": "string"}, "assignee": {"type": "string"}, "assignment_utc": {"type": "string"}, "result_status": {"type": "string"}, "result_reference": {"type": "string"}, "notes": {"type": "string"}
+  }}
+}

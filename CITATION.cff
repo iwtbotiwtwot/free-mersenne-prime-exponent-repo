@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: Free Mersenne Prime Exponent Repository
+message: Cite the immutable release or commit and its manifest.
+type: dataset
+authors:
+  - family-names: Brady
+    given-names: Sean
+    affiliation: SAM Research Project
+  - family-names: ChatGPT
+    given-names: OpenAI
+  - family-names: Codex
+    given-names: OpenAI
+repository-code: https://github.com/iwtbotiwtwot/free-mersenne-prime-exponent-repo
+license: Apache-2.0
+abstract: Complete machine-readable Mersenne candidate records with provenance and validation manifests.
