@@ -5,9 +5,9 @@ candidates. In plain language: each record starts with a prime exponent `p`
 for the number `2^p - 1`, then keeps the complete SAM/SLC screening,
 scheduling, distribution and result information associated with that exponent.
 
-**Current public search surface:** **58,083,835** primality-unassigned
-candidate records published contiguously through **SLCMP4589**, ending at the
-interval boundary **2,158,000,000**. The live total and ordinary CSV files are
+**Current public search surface:** **58,260,262** primality-unassigned
+candidate records published contiguously through **SLCMP4594**, ending at the
+interval boundary **2,163,000,000**. The live total and ordinary CSV files are
 maintained in the original
 [`mersenne-prime-search`](https://github.com/iwtbotiwtwot/mersenne-prime-search)
 repository.
@@ -15,6 +15,10 @@ repository.
 You do not need to know Git or GitHub to use the data. Start with
 [`GETTING_STARTED.md`](docs/GETTING_STARTED.md) for browser downloads,
 spreadsheet use and simple command-line searches.
+
+For LLM ingestion, publication language, exact terminology, machine-readable
+facts and ready-to-use descriptions, start with
+[`LLM_PUBLICATION_BRIEF.md`](LLM_PUBLICATION_BRIEF.md).
 
 Candidate inclusion does not assign primality. A candidate with no exact result
 remains unresolved; exact factor and Lucas--Lehmer authorities remain separate.
