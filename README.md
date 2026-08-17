@@ -5,9 +5,9 @@ candidates. In plain language: each record starts with a prime exponent `p`
 for the number `2^p - 1`, then keeps the complete SAM/SLC screening,
 scheduling, distribution and result information associated with that exponent.
 
-**Current public search surface:** **55,795,265** primality-unassigned
-candidate records published contiguously through **SLCMP4524**, ending at the
-interval boundary **2,093,000,000**. The live total and ordinary CSV files are
+**Current public search surface:** **55,971,497** primality-unassigned
+candidate records published contiguously through **SLCMP4529**, ending at the
+interval boundary **2,098,000,000**. The live total and ordinary CSV files are
 maintained in the original
 [`mersenne-prime-search`](https://github.com/iwtbotiwtwot/mersenne-prime-search)
 repository.
@@ -92,12 +92,23 @@ through bands, batches and blocks.
 
 ## Quick use
 
-1. Click `Code`, then `Download ZIP`, to download the repository without Git.
-2. Read [`STATUS.md`](STATUS.md) to see which payloads are currently available.
-3. When payload migration is installed, use the index to locate the
-   one-million interval containing your exponent.
-4. Decompress that block and open the CSV in a spreadsheet, text editor or
-   data-analysis program.
+Python users can download only the live public bands they choose. The command
+pins one exact source revision, validates interval and row-count custody, and
+writes `DOWNLOAD_RECEIPT.json` with SHA-256 hashes:
+
+```bash
+python scripts/download_bands.py --exponent 2051000009
+python scripts/download_bands.py --run SLCMP4504
+python scripts/download_bands.py --range 2050000000 2055000000 --output my_bands
+```
+
+Use `--list-only` to inspect the selection without downloading CSV files.
+Selectors may be combined and repeated. No third-party Python packages or Git
+client are required.
+
+For browser-only use, click `Code`, then `Download ZIP`, and follow
+[`GETTING_STARTED.md`](docs/GETTING_STARTED.md). Read [`STATUS.md`](STATUS.md)
+for the separate compressed-archive migration state.
 
 For people comfortable with a terminal:
 
