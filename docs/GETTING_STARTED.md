@@ -44,6 +44,38 @@ On Linux, macOS or Windows with the `zstd` command installed:
 zstd -d SLCMP4483.csv.zst
 ```
 
+## Download selected live bands with Python
+
+The installed downloader retrieves ordinary CSV bands directly from the live
+source publication without cloning either repository. It first pins the exact
+GitHub `main` revision, so a growing publication stream cannot change halfway
+through one selection. It then validates every file and writes a SHA-256
+download receipt.
+
+Download the band containing one exponent:
+
+```bash
+python scripts/download_bands.py --exponent 2051000009
+```
+
+Download one named publication run:
+
+```bash
+python scripts/download_bands.py --run SLCMP4504
+```
+
+Download every source band overlapping a chosen interval:
+
+```bash
+python scripts/download_bands.py \
+  --range 2050000000 2055000000 \
+  --output my_bands
+```
+
+The interval selector means `(LOWER,UPPER]`. Repeat or combine `--run`,
+`--exponent` and `--range` to make one exact selection. Add `--list-only` to
+show what would be downloaded. Python 3 is the only software dependency.
+
 ## Download the project without Git
 
 On the repository's main GitHub page, select `Code` and then `Download ZIP`.
