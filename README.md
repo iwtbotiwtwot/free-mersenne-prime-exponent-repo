@@ -5,12 +5,69 @@ candidates. In plain language: each record starts with a prime exponent `p`
 for the number `2^p - 1`, then keeps the complete SAM/SLC screening,
 scheduling, distribution and result information associated with that exponent.
 
+**Current public search surface:** **54,561,911** primality-unassigned
+candidate records published contiguously through **SLCMP4489**, ending at the
+interval boundary **2,058,000,000**. The live total and ordinary CSV files are
+maintained in the original
+[`mersenne-prime-search`](https://github.com/iwtbotiwtwot/mersenne-prime-search)
+repository.
+
 You do not need to know Git or GitHub to use the data. Start with
 [`GETTING_STARTED.md`](docs/GETTING_STARTED.md) for browser downloads,
 spreadsheet use and simple command-line searches.
 
 Candidate inclusion does not assign primality. A candidate with no exact result
 remains unresolved; exact factor and Lucas--Lehmer authorities remain separate.
+
+## This is a research idea, not just a large number
+
+SAM begins from a different picture of prime search. A prime exponent is not
+used only as a point on the uniform integer line; it is also treated as an
+**informational radix mark** in a prime-only coordinate system. The exponent
+history and the Mersenne recurrence supply two reciprocal information voices
+on one closed geometry. Their nested rhythms—“beats within beats,” delayed
+echoes and directional returns—identify structured places where exact factor
+arithmetic should look.
+
+That distinction is the heart of the project:
+
+> Prime arithmetic is the certificate. Informational geometry decides where
+> exact arithmetic should look.
+
+SAM/SLC may schedule the work, but it does not get to declare the answer. An
+exact divisor remains an ordinary modular-arithmetic certificate. A surviving
+row remains unresolved until an exact primality test and the required result
+custody close its status.
+
+## Follow the ideas
+
+- **Why primes become an informational ruler.** Read
+  [SAM in Mersenne Search](https://github.com/iwtbotiwtwot/SAM_Research_Project/blob/main/SAM_IN_MERSENNE_SEARCH.md)
+  for the clean-sheet line from prime-only coordinates and reciprocal orbits
+  to structural factor work and the public candidate surface.
+- **Why Mersenne closure has directional memory.** The reciprocal Lucas--Lehmer
+  view isolates a signed preterminal amplitude before terminal closure. The
+  common state can resolve and return while a separate directional ledger
+  retains the route into that resolution: **state returns; history does not**.
+  The broader computational setting is the public
+  [Substrate Ledger Computer](https://github.com/iwtbotiwtwot/substrate-ledger-computer).
+- **What SAM means by a write.** A write is not an anonymous scalar update. In
+  the W8/X1/W9 algebra it is a typed activation, reciprocal relay, resolved
+  receipt, local return and retained directional history. See the
+  [Exact Write installation record](https://github.com/iwtbotiwtwot/SAM_Research_Project/blob/main/SAM_HISTORY/entries/H000132_2026-08-09_SLCV1_EXACT_WRITE_ALGEBRA_INSTALLATION.md)
+  and the computation spine linked from the SAM repository.
+- **Where reciprocal history leads analytically.** The RH program carries the
+  same two-view history architecture into completed Weil forms, directional
+  fibers, exact sign instruments and the current cutoff-wide contraction
+  question. Read
+  [RH Work to Date](https://github.com/iwtbotiwtwot/riemann-hypothesis-program/blob/main/RH_WORK_TO_DATE_V1_2026-08-15.md)
+  or explore the full
+  [Riemann Hypothesis Program](https://github.com/iwtbotiwtwot/riemann-hypothesis-program).
+
+Together these links tell the larger story: the substrate record can compute;
+reciprocal history can carry prime structure; prime structure can direct exact
+work; and the resulting candidate surface can be tested independently by
+anyone.
 
 ## Which repository should I use?
 
