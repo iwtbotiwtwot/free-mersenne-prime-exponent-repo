@@ -5,9 +5,9 @@ candidates. In plain language: each record starts with a prime exponent `p`
 for the number `2^p - 1`, then keeps the complete SAM/SLC screening,
 scheduling, distribution and result information associated with that exponent.
 
-**Current public search surface:** **133,416,138** primality-unassigned
-candidate records published contiguously through **SLCMP6759**, ending at the
-interval boundary **4,328,000,000**. The live total and ordinary CSV files are
+**Current public search surface:** **133,588,284** primality-unassigned
+candidate records published contiguously through **SLCMP6764**, ending at the
+interval boundary **4,333,000,000**. The live total and ordinary CSV files are
 maintained in the original
 [`mersenne-prime-search`](https://github.com/iwtbotiwtwot/mersenne-prime-search)
 repository.
